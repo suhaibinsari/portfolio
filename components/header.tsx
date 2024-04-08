@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
+import upwork from "../public/upwork.png"
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
@@ -26,14 +28,14 @@ export default function Header() {
 
   return (
     <header className="z-[999] relative flex items-center justify-center">
-      {isMobileMenuOpen && (
+      {/* {isMobileMenuOpen && (
 
         <motion.div
           className=""
           initial={{ y: -100, x: "-50%", opacity: 0 }}
           animate={{ y: 0, x: "-50%", opacity: 1 }}
         ></motion.div>
-      )}
+      )} */}
 
 
       {/* Burger menu button */}
@@ -80,11 +82,12 @@ export default function Header() {
       </div>
 
       {/* Mobile menu */}
+
       <div
 
 
         className={clsx(
-          "fixed  top-0 left-0 w-full  p-4 transition-transform duration-300 ease-in-out transform border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:w-[46rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75",
+          "fixed  top-0  left-0 w-full p-4 transition-transform duration-300 ease-in-out transform border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75",
           { "-translate-x-full": !isMobileMenuOpen }
         )}
       >
@@ -115,11 +118,26 @@ export default function Header() {
             </motion.li>
           ))}
         </ul>
-
+        <motion.div
+          className="px-[2rem] sm:px-[15rem] mb-4"
+          initial={{ y: -100, x: "-50%", opacity: 0 }}
+          animate={{ y: 0, x: "0", opacity: 1 }}>
+          <Link href="#" className="">
+            <div className="bg-[#15A703] rounded-full flex items-center justify-center">
+              <p className="text-white font-bold">Visit</p>
+              <Image src={upwork} alt="no-image" className="h-10 w-10" />
+            </div>
+          </Link>
+        </motion.div>
       </div>
-      <div className="hidden md:block">
+
+      <motion.div
+       initial={{ y: 0, x: "0", opacity: 0 }}
+       animate={{ y: 0, x: "0", opacity: 1 }}
+      className="hidden md:block">
+
         <div className="flex items-center justify-center">
-          <nav className="fixed top-0 w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 p-1 sm:w-[46rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75">
+          <nav className="flex items-center justify-center fixed top-0 w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 p-1 sm:w-[41rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75">
             <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5">
               <motion.div
                 initial={{ y: -100, x: "-50%", opacity: 0 }}
@@ -170,11 +188,19 @@ export default function Header() {
                     )}
                   </Link>
                 </motion.li>
+
               ))}
+              <motion.div
+                initial={{ y: -100, x: "-50%", opacity: 0 }}
+                animate={{ y: 0, x: "0", opacity: 1 }}>
+                <Link href="#">
+                  <Image src={upwork} alt="no-image" className="h-10 w-10" />
+                </Link>
+              </motion.div>
             </ul>
           </nav>
         </div>
-      </div>
+      </motion.div>
     </header>
   );
 }
