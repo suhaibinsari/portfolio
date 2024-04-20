@@ -1,19 +1,23 @@
-import About from "@/components/about";
-import Experience from "@/components/experience";
-import Intro from "@/components/intro";
-import Projects from "@/components/projects";
-import SectionDivider from "@/components/section-divider";
-import Skills from "@/components/skills";
+import React from 'react'
+import Intro from './pages/home/page'
+import Help from './pages/helpSection/page'
+import Work from './pages/workExp/page'
+import Latest from './pages/latestWork/page'
+import Reviews from './pages/testmonials/page'
+import Footer from './components/footer/page'
 
-export default function Home() {
+
+
+export default function page() {
   return (
-    <main className="flex flex-col items-center px-4">
+    <div className='mt-20 overflow-x-hidden'>
       <Intro />
-      <SectionDivider />
-      <About />
-      <Projects />
-      <Skills />
-      <Experience />
-    </main>
-  );
+      <Help />
+      <Work />
+      <Latest />
+      <Reviews />
+      {/* <Footer /> */}
+
+    </div>
+  )
 }
