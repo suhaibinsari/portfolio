@@ -11,7 +11,7 @@ export default function page() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3 }}
       >
-        <h2 className="text-5xl font-Concert text-center mb-8">Work Experience</h2>
+        <h2 className="text-5xl font-Concert text-center mb-12">Work Experience</h2>
         <motion.div
           className='md:w-[50rem] w-[20rem]'
           initial={{ opacity: 0, scale: 0.5 }}

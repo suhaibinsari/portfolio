@@ -1,16 +1,8 @@
 'use client'
 import React, { useState } from 'react'
 
-// import Link from 'next/link'
+import Link from 'next/link';
 
-import Link from 'next/link'; // Import Link from react-scroll
-
-
-import Image from 'next/image'
-
-
-
-import upwork from '@/public/free-upwork-3445938-2878870.webp'
 import SmoothScroll from '../SmoothScroll'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,18 +35,32 @@ const Navbar = () => {
             </li>
             <li>
               <div className='block md:hidden mb-3'>
-                <Link href="https://www.upwork.com/freelancers/suhaibinsari" target='_blank' className='border rounded-full bg-white hover:bg-[#14A800] shadow-md w-24 h-11 flex items-center justify-center gap-1 transition duration-300'>
-                  <p className='font-medium text-black'>VISIT</p>
-                  <Image src={upwork} alt='no-img' width={25} height={25} className='mt-[0.2rem]' />
-                </Link>
+                <span className='flex items-center justify-center gap-2'>
+                  <p>+92 (323) 6620434</p>
+                  <Link href="https://wa.me/923236620434" target='_blank' className='border rounded-full bg-white hover:shadow-lg w-10 h-10 flex items-center justify-center transition duration-300' >
+                    <svg className='w-5 h-5' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                      <rect width="256" height="256" fill="none" />
+                      <path d="M92.5,124.8a83.6,83.6,0,0,0,39,38.9,8,8,0,0,0,7.9-.6l25-16.7a7.9,7.9,0,0,1,7.6-.7l46.8,20.1a7.9,7.9,0,0,1,4.8,8.3A48,48,0,0,1,176,216,136,136,0,0,1,40,80,48,48,0,0,1,81.9,32.4a7.9,7.9,0,0,1,8.3,4.8l20.1,46.9a8,8,0,0,1-.6,7.5L93,117A8,8,0,0,0,92.5,124.8Z" fill="#14A800" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" />
+                      <polyline points="168 48 208 48 208 88" fill="white" stroke="#14A800" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" />
+                      <line x1="160" y1="96" x2="208" y2="48" fill="white" stroke="#14A800" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" />
+                    </svg>
+                  </Link>
+                </span>
               </div>
             </li>
           </ul>
-
-          <div className='hidden md:block' >
-            <Link href="https://www.upwork.com/freelancers/suhaibinsari" target='_blank' className='border rounded-full bg-white hover:bg-[#14A800] shadow-lg w-11 h-11 flex items-center justify-center transition duration-300' >
-              <Image src={upwork} alt='no-img' width={30} height={30} className='mt-[0.2rem]' />
-            </Link>
+          <div className='hidden md:block text-sm'>
+            <span className='flex items-center justify-center gap-2'>
+              <p>+92 (323) 6620434</p>
+              <Link href="https://wa.me/923236620434" target='_blank' className='border rounded-full bg-white hover:shadow-lg w-10 h-10 flex items-center justify-center transition duration-300' >
+                <svg className='w-5 h-5' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                  <rect width="256" height="256" fill="none" />
+                  <path d="M92.5,124.8a83.6,83.6,0,0,0,39,38.9,8,8,0,0,0,7.9-.6l25-16.7a7.9,7.9,0,0,1,7.6-.7l46.8,20.1a7.9,7.9,0,0,1,4.8,8.3A48,48,0,0,1,176,216,136,136,0,0,1,40,80,48,48,0,0,1,81.9,32.4a7.9,7.9,0,0,1,8.3,4.8l20.1,46.9a8,8,0,0,1-.6,7.5L93,117A8,8,0,0,0,92.5,124.8Z" fill="#14A800" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" />
+                  <polyline points="168 48 208 48 208 88" fill="white" stroke="#14A800" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" />
+                  <line x1="160" y1="96" x2="208" y2="48" fill="white" stroke="#14A800" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" />
+                </svg>
+              </Link>
+            </span>
           </div>
         </div>
       </nav>
