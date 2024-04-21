@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div className="bg-[#F8F7F1] py-10 flex flex-col items-center justify-center space-y-6">
+    <div className="bg-[#F8F7F1] py-10 flex flex-col items-center justify-center space-y-6" id='section2'>
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

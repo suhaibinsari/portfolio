@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 export default function page() {
     return (
-        <div className='py-20 flex flex-col items-center justify-center space-y-6' id='#'>
+        <div className='py-20 flex flex-col items-center justify-center space-y-6' id='section1'>
             <div className='flex flex-col items-center justify-center'>
                 <motion.div
                     initial={{ opacity: 0, y: -20 }}

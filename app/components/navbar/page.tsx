@@ -22,16 +22,16 @@ const Navbar = () => {
           </button>
           <ul className={`md:flex items-center justify-center gap-3 text-xs ${isOpen ? 'flex flex-col md:flex-row absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto bg-[#F8F7F1] px-4 py-2' : 'hidden'}`}>
             <li className='hover:border-x-2 cursor-pointer transition-all duration-100 border-gray-900 rounded-full px-2 hover:text-[#14A800] hover:border-[#14A800]'>
-              <SmoothScroll to='section1'>SERVICES</SmoothScroll>
+              <SmoothScroll to='section1'>SKILLS</SmoothScroll>
             </li>
             <li className='hover:border-x-2 cursor-pointer transition-all duration-100 border-gray-900 rounded-full px-2 hover:text-[#14A800] hover:border-[#14A800]'>
-              <SmoothScroll to='section2'>EXPERIENCE</SmoothScroll>
+              <SmoothScroll to='section2'>ABOUT</SmoothScroll>
             </li>
             <li className='hover:border-x-2 cursor-pointer transition-all duration-100 border-gray-900 rounded-full px-2 hover:text-[#14A800] hover:border-[#14A800]'>
-              <SmoothScroll to='section3'>PROJECTS</SmoothScroll>
+              <SmoothScroll to='section3'>EXPERIENCE</SmoothScroll>
             </li>
             <li className='hover:border-x-2 cursor-pointer transition-all duration-100 border-gray-900 rounded-full px-2 hover:text-[#14A800] hover:border-[#14A800]'>
-              <SmoothScroll to='section4'>REVIEWS</SmoothScroll>
+              <SmoothScroll to='section4'>PROJECTS</SmoothScroll>
             </li>
             <li>
               <div className='block md:hidden mb-3'>

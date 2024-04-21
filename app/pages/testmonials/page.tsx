@@ -24,7 +24,7 @@ import ReviewSection from '@/app/components/clients/page'
 
 const PeopleTalkAboutMe = () => {
   return (
-    <div className='bg-[#F8F7F1] py-10 flex flex-col items-center justify-center mb-24' id="section4">
+    <div className='bg-[#F8F7F1] py-10 flex flex-col items-center justify-center mb-24' >
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

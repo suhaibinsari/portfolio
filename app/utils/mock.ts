@@ -139,6 +139,7 @@ export const skillsData = [
 	"JavaScript",
 	"TypeScript",
 	"React",
+	"Web3 Libraries",
 	"Next.js",
 	"Node.js",
 	"Git",
@@ -155,7 +156,9 @@ export const skillsData = [
 	"Bootstrap",
 	"Framer Motion",
 	"Adobe Illustrator",
-	"Styled-InDesign",
+	"Adobe Photoshop",
+	"Adobe InDesign",
+	"Styled-Components",
 	"Figma",
 	"AdobeXd",
   ] as const;

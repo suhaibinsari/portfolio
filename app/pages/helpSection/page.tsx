@@ -65,7 +65,7 @@ const projects = [
 export default function Help() {
     return (
         <>
-            <div className='flex items-center justify-center py-24 px-2'  id="section1">
+            <div className='flex items-center justify-center py-24 px-2'  id="">
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-0'>
                     <motion.div
                         className='flex md:order-first order-last flex-col items-center justify-center space-y-2 md:items-start'

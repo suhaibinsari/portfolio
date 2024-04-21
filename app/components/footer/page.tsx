@@ -7,9 +7,9 @@ import SmoothScroll from "../SmoothScroll";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="py-5 text-center font-Poppins px-8">
+    <footer className="py-5 text-center pt-52 font-Poppins px-8">
       <div className="container mx-auto max-w-[50rem]">
-        <div className="grid grid-cols-1 md:grid-cols-2 mb-10 md:space-y-0 space-y-10">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 mb-10 md:space-y-0 space-y-10">
 
           <div className="font-Concert text-start -mt-3 space-y-16">
             <h2 className=" text-4xl">Let&apos;s make something <br />amazing together</h2>
@@ -33,7 +33,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
         <hr className="mb-5" />
         <div className="flex items-center justify-center md:justify-between">
           <div className="hidden md:block">
