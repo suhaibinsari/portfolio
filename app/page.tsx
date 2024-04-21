@@ -4,9 +4,8 @@ import Help from './pages/helpSection/page'
 import Work from './pages/workExp/page'
 import Latest from './pages/latestWork/page'
 import Reviews from './pages/testmonials/page'
-import Footer from './components/footer/page'
 import AllSkill from './pages/allSkill/page'
-
+import About from './pages/aboutMe/page'
 
 export default function page() {
   return (
@@ -14,11 +13,10 @@ export default function page() {
       <Intro />
       {/* <Help /> */}
       <AllSkill />
-
+      <About />
       <Work />
       <Latest />
-      <Reviews />
-      {/* <Footer /> */}
+      {/* <Reviews /> */}
 
     </div>
   )

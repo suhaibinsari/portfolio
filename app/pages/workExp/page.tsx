@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function page() {
   return (
-    <div className="bg-[#F8F7F1] py-10 flex flex-col items-center justify-center space-y-6"
+    <div className=" py-24 flex flex-col items-center justify-center space-y-6"
       id="section2">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
