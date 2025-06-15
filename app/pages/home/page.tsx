@@ -87,7 +87,7 @@ export default function page() {
 										transition={{ duration: 0.3, delay: 0.5 }}
 										className=""
 									>
-										<Link href="https://drive.google.com/file/d/1udeqfOqvcqJ1M2B2zbweQdVKXu5CWgHZ/view?usp=sharing" target='_blank'>
+										<Link href="https://drive.google.com/file/d/1G89cEKsE_to5k9wecooOQ27xsbK_SVX2/view?usp=sharing" target='_blank'>
 											<Image src={cv} alt="no-img" width={33} height={33} />
 										</Link>
 									</motion.div>
@@ -124,7 +124,7 @@ export default function page() {
 							className="absolute mt-[20rem] flex flex-col md:flex-row gap-5 md:items-end justify-between lg:w-[60rem] md:w-[40rem]"
 						>
 							<div className='flex items-center justify-start gap-1 -mt-6 mb-5'>
-								<p className="text-6xl lg:block hidden font-bold font-Concert">5</p>
+								<p className="text-6xl lg:block hidden font-bold font-Concert">2</p>
 								<p className="text-start lg:block hidden text-sm font-Poppins font-semibold -mb-7 ">YEARS<br />EXPERIENCE</p>
 							</div>
 							<div className='lg:block hidden '>

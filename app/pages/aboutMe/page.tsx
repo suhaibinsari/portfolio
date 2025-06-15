@@ -2,8 +2,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 
-
-
 export default function page() {
   return (
     <div className="bg-[#F8F7F1] py-10 flex flex-col items-center justify-center space-y-6" id='section2'>
@@ -20,8 +18,15 @@ export default function page() {
           transition={{ duration: 0.3, delay: 0.2 }}
         >
           <p className='font-Poppins text-center leading-8 tracking-wide'>
-            During my college years, I explored various bootcamps to get a grip on the basics of MERN stack. With a BS in Computer Science under my belt, I decided to pursue my passion for software engineering. Landing an internship at IIFA Tech introduced me to Ruby on Rails. Later, as a junior developer at Snow Dream Studios, I focused on frontend development. Solving problems is what excites me most about programming. I thrive on that &quot;Eureka!&quot; moment when a solution clicks.
-            Always eager to embrace new tech, <span className='font-semibold'> I&apos;m currently seeking a full-time role as a software developer</span>.
+            During college, I explored MERN stack bootcamps to build a strong foundation in web development. With a
+            <span className='font-semibold'> BS </span>
+            in Computer Science, I pursued my passion for software engineering and landed an
+            <span className='font-semibold'> internship </span>
+            at IIFA Tech, where I was introduced to Ruby on Rails. Later, I focused on frontend development as a
+            <span className='font-semibold'> junior developer </span>
+            at Snow Dream Studios. Now, I&quot;m continuing my journey at Botnostic Solutions as a
+            <span className='font-semibold'> frontend developer </span>
+            .I love solving problems and chasing that  <span className='font-semibold'>“aha!”</span> moment when everything clicks. I&quot;m always eager to learn and excited about new tech.
           </p>
         </motion.div>
       </motion.div>

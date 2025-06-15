@@ -9,14 +9,14 @@ const Exp = () => {
                     <div className=" sm:block border border-black border-dashed absolute h-full  md:left-[21rem] transform -translate-x-1/2"></div>
                     <div className="mt-6 sm:mt-0 sm:mb-12">
                         <div className="flex">
-                            <div className=' flex flex-col md:flex-row items-start justify-between md:gap-[7.2rem] gap-2 ml-5 md:ml-0 sm:mt-0 -mt-4'>
+                            <div className=' flex flex-col md:flex-row items-start justify-between md:gap-[206px] gap-2 ml-5 md:ml-0 sm:mt-0 -mt-4'>
                                 <div className='space-y-2'>
-                                    <h2 className='font-bold text-xl font-Poppins'>Self-Employed, FREELANCING</h2>
-                                    <p className='text-xs '>Sep 2023 - Current</p>
+                                    <h2 className='font-bold text-xl font-Poppins'>Junior Developer, BS</h2>
+                                    <p className='text-xs'>Aug 2024 - Current, Islamabad</p>
                                 </div>
                                 <div className='space-y-2'>
-                                    <h2 className='font-bold text-xl font-Poppins'>Full Stack Developer</h2>
-                                    <p className='md:w-[20rem] text-xs leading-6 '>As a Full Stack Developer, I specialize in Ruby on Rails, Next.js, React.js, JavaScript, TypeScript, HTML, CSS, GraphQL, RESTful APIs, and CMS with Node.js. I excel in crafting robust, scalable solutions across the tech stack.</p>
+                                    <h2 className='font-bold text-xl font-Poppins'>Front End Developer</h2>
+                                    <p className='md:w-[20rem] text-xs leading-6 '>Developed and optimized the company website and landing pages using Next.js, focusing on performance and SEO. Integrated RESTful APIs into dashboards to enhance functionality and user experience, while improving responsiveness and loading times through targeted performance optimizations.</p>
                                 </div>
                             </div>
                             <div className="rounded-full md:mt-0 bg-[#F8F7F1] border border-black border-dashed md:w-10 md:h-10 w-8 h-8 absolute -left-[0.5px] md:left-[21rem] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
