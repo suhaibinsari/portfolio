@@ -9,6 +9,7 @@ const getProjectsByCategory = (category: string) => {
 
 const categories = [
   { name: 'All Projects', link: '/pages/explore' },
+  { name: 'Frontend Dev', link: '/category/Frontend' },
   { name: 'Blockchain', link: '/category/Blockchain' },
   { name: 'Fullstack Dev', link: '/category/Fullstack' },
   { name: 'Designing & UX/UI', link: '/category/UI-UX' },

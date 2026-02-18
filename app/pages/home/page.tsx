@@ -87,7 +87,7 @@ export default function page() {
 										transition={{ duration: 0.3, delay: 0.5 }}
 										className=""
 									>
-										<Link href="https://drive.google.com/file/d/1G89cEKsE_to5k9wecooOQ27xsbK_SVX2/view?usp=sharing" target='_blank'>
+										<Link href="https://drive.google.com/file/d/1vv7209mIReNKyZZLfRr3Cj5ib-4YRshN/view?usp=drive_link" target='_blank'>
 											<Image src={cv} alt="no-img" width={33} height={33} />
 										</Link>
 									</motion.div>

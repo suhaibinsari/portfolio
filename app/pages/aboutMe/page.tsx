@@ -20,13 +20,11 @@ export default function page() {
           <p className='font-Poppins text-center leading-8 tracking-wide'>
             During college, I explored MERN stack bootcamps to build a strong foundation in web development. With a
             <span className='font-semibold'> BS </span>
-            in Computer Science, I pursued my passion for software engineering and landed an
-            <span className='font-semibold'> internship </span>
-            at IIFA Tech, where I was introduced to Ruby on Rails. Later, I focused on frontend development as a
-            <span className='font-semibold'> junior developer </span>
-            at Snow Dream Studios. Now, I&quot;m continuing my journey at Botnostic Solutions as a
-            <span className='font-semibold'> frontend developer </span>
-            .I love solving problems and chasing that  <span className='font-semibold'>“aha!”</span> moment when everything clicks. I&quot;m always eager to learn and excited about new tech.
+            in Computer Science, I pursued my passion for software engineering and gained experience through internships and early projects. I then focused on frontend development, honing my skills in modern frameworks and libraries. Currently, I continue my journey as a
+            <span className='font-semibold'> frontend developer at Botnostics Solutions </span>
+            , where I build dynamic websites, dashboards, and interactive applications. I love solving problems and chasing that
+            <span className='font-semibold'> “aha!” </span>
+            moment when everything clicks. I’m always eager to learn and excited about exploring new technologies.
           </p>
         </motion.div>
       </motion.div>

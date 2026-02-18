@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 const categories = [
   { name: 'All Projects', link: '/pages/explore' },
+  { name: 'Frontend Dev', link: '/category/Frontend' },
   { name: 'Blockchain', link: '/category/Blockchain' },
   { name: 'Fullstack Dev', link: '/category/Fullstack' },
   { name: 'Designing & UX/UI', link: '/category/UI-UX' },
@@ -34,7 +35,7 @@ export default function Page() {
             <h1 className="text-5xl font-bold font-Concert mb-4 text-center py-10">Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
               {Projects.map((project, index) => (
-                <Link href={project.link} target="_blank"  key={index}>
+                <Link href={project.link} target="_blank" key={index}>
                   <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl h-[20rem] w-auto group px-6 py-3">
                     {/* Overlay */}
                     <div className="absolute z-50 inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 transition duration-300 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center cursor-pointer">
